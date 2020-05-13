@@ -3,6 +3,7 @@ HOST_PORT=3000
 PROJECT_FOLDER=.
 GIT_DIR=$(shell pwd)
 launch:
+	yarn install 
 	yarn start
 build:
 	docker build -t $(PACKAGE_NAME) -f Dockerfile --build-arg module_folder=$(PROJECT_FOLDER) --build-arg package_name=$(PACKAGE_NAME) $(GIT_DIR)
