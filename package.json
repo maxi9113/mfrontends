@@ -1,0 +1,23 @@
+{
+  "name": "container-mfs",
+  "version": "1.0.0",
+  "description": "Container mfs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxi9113/mfrontends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxi9113/mfrontends/issues"
+  },
+  "homepage": "https://github.com/maxi9113/mfrontends#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
