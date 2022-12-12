@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/maxi9113/mfrontends#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mf-task": "https://nexus.altoalliance.com/repository/npm-releases/mf-task/-/mf-task-1.0.5.tgz"
   }
 }
